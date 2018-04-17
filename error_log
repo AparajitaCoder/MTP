@@ -1,0 +1,33 @@
+[16-Feb-2018 05:27:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/mtp/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Call to undefin...', 'UTF-8', 'ASCII')
+#1 /home/mtp/public_html/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Call to undefin...', 'utf8', 'ASCII')
+#2 /home/mtp/public_html/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Call to undefin...', 192)
+#3 /home/mtp/public_html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(480): Symfony\Component\Console\Application->renderExcep in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[16-Feb-2018 05:27:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/mtp/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Uncaught Error:...', 'UTF-8', 'ASCII')
+#1 /home/mtp/public_html/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Uncaught Error:...', 'utf8', 'ASCII')
+#2 /home/mtp/public_html/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Uncaught Error:...', 192)
+#3 /home/mtp/public_html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalErrorException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(480): Symfony\Component\Console\Application->renderExcep in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[16-Feb-2018 05:37:14 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[16-Feb-2018 05:38:03 UTC] PHP Fatal error:  Allowed memory size of 2097152 bytes exhausted (tried to allocate 4096 bytes) in /home/mtp/public_html/vendor/composer/autoload_static.php on line 326
+[16-Feb-2018 05:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/mtp/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Call to undefin...', 'UTF-8', 'ASCII')
+#1 /home/mtp/public_html/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Call to undefin...', 'utf8', 'ASCII')
+#2 /home/mtp/public_html/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Call to undefin...', 192)
+#3 /home/mtp/public_html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalThrowableError), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(480): Symfony\Component\Console\Application->renderExcep in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[16-Feb-2018 05:38:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Symfony\Polyfill\Mbstring\iconv() in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php:114
+Stack trace:
+#0 /home/mtp/public_html/vendor/symfony/polyfill-mbstring/bootstrap.php(19): Symfony\Polyfill\Mbstring\Mbstring::mb_convert_encoding('Uncaught Error:...', 'UTF-8', 'ASCII')
+#1 /home/mtp/public_html/vendor/symfony/console/Application.php(1167): mb_convert_encoding('Uncaught Error:...', 'utf8', 'ASCII')
+#2 /home/mtp/public_html/vendor/symfony/console/Application.php(755): Symfony\Component\Console\Application->splitStringByWidth('Uncaught Error:...', 192)
+#3 /home/mtp/public_html/vendor/symfony/console/Application.php(729): Symfony\Component\Console\Application->doRenderException(Object(Symfony\Component\Debug\Exception\FatalErrorException), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(480): Symfony\Component\Console\Application->renderExcep in /home/mtp/public_html/vendor/symfony/polyfill-mbstring/Mbstring.php on line 114
+[16-Feb-2018 05:39:22 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[16-Feb-2018 05:54:45 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
+[21-Feb-2018 13:44:45 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/mtp/public_html/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php on line 233
